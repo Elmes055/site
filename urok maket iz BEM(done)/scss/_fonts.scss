@@ -1,0 +1,54 @@
+/*Fonts*/
+// Lato
+@font-face {
+    font-family: 'Lato';
+//    src: url('../font/Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+//        url('../font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+//        url('../font/Lato-Regular.woff') format('woff'),
+        url('../font/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+//    src: url('../font/Lato-Black.eot');
+    src: local('Lato Black'), local('Lato-Black'),
+//        url('../font/Lato-Black.eot?#iefix') format('embedded-opentype'),
+//        url('../font/Lato-Black.woff') format('woff'),
+        url('../font/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+//    src: url('../font/Lato-Bold.eot');
+    src: local('Lato Bold'), local('Lato-Bold'),
+//        url('../font/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+//        url('../font/Lato-Bold.woff') format('woff'),
+        url('../font/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+//    src: url('../font/Lato-Light.eot');
+    src: local('Lato Light'), local('Lato-Light'),
+//        url('../font/Lato-Light.eot?#iefix') format('embedded-opentype'),
+//        url('../font/Lato-Light.woff') format('woff'),
+        url('../font/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+// MyriadPro
+@font-face {
+    font-family: 'Myriad Pro';
+//    src: url('../font/MyriadPro-Regular.eot');
+    src: local('Myriad Pro Regular'), local('MyriadPro-Regular'),
+//        url('../font/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+//        url('../font/MyriadPro-Regular.woff') format('woff'),
+        url('../font/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--------------------*/

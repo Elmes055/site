@@ -1,0 +1,39 @@
+/* portfolio */
+.port {
+    background-color: #F3F3F3;
+    &__content {
+        max-width: 1105px;
+        margin: 0px auto;
+    }
+    &__title {
+        padding-top: 95px;
+    }
+    &__nav {
+        margin: 45px 0 136px;
+        justify-content: center;
+    }
+    &__row {
+//        border: 7.5px solid #ece89d;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__column {
+//        border: 7.5px solid #5e5373;
+        flex: 0 1 50%;
+        margin:0 0 10px;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+//        background-color: #3228ac;
+        padding: 65px 0;
+        a{
+            color: black;
+            border: 1px solid black;
+            &:hover{
+                background-color: #cdc7c7;
+            }
+        }
+    }
+}
+/*--------------------*/

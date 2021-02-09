@@ -1,0 +1,83 @@
+/* intro */
+.intro{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #999;
+    background: url('../img/intro.jpg') 0 0 no-repeat;
+    background-size: cover;
+    &__logo{
+        margin: 105px 0 106px;
+    }
+    &__title{
+        color: #fff;
+        font-size: 35px;
+        line-height: 40px;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+    }
+    &__subtitle{
+        color: #fff;
+        font-size: 27px;
+        letter-spacing: 4px;
+        padding-bottom: 48px;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            bottom: 0;
+            height: 2px;
+            left: 50%;
+            background-color: #fff;
+            margin: 0px 0px 0px -50px;
+        }
+    }
+    &__button{
+        margin-top: 227px;
+    }
+    &__arrow{
+        margin-top: 90px;
+    }
+}
+.btn{
+    display: inline-block;
+    padding: 16px 45px;
+    border: 1px solid #E9E9E9;
+    color: #fff;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.8s ease 0s; 
+    &:hover{
+      transition: all 0.8s ease 0s;
+      transform: scale(1.1, 1.1);
+      background-color: #F3F3F3;
+      color: #000;
+    }
+
+}
+.header__nav{
+    padding: 20px 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    &__link{
+      transition: all 0.5s ease 0s; 
+      color: #000;
+      margin-left: 55px;
+        &:hover{
+            text-decoration: underline;
+            transition: all 0.5s ease 0s;
+            transform: scale(1.2, 1.2);
+            color: #ADA074;
+        }
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
+/*--------------------*/
