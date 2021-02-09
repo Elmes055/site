@@ -1,0 +1,26 @@
+//шрифты
+@import "_fonts.scss";
+// Файл обнуляющих стилей
+@import "_null.scss";
+//intro
+@import "_header.scss";
+//about
+@import "_about.scss";
+//portfolio
+@import "_portfolio.scss";
+//partners
+@import "_partners.scss";
+//Contact
+@import "_contact.scss";
+//footer
+@import "_footer.scss";
+
+body{
+    color: #000;
+    font-family: "Lato", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+} 

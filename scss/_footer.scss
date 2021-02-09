@@ -1,0 +1,28 @@
+/* contact */
+.footer{
+    background-color: #3c3c3c;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &__loqo{
+        margin: 50px 0;
+    }
+    &__item{
+        word-spacing: 10px;
+    }
+    &__link{
+      display: inline-block;
+        color: #a4a4a4;
+        transition: all 0.8s ease 0s; 
+      &:hover{
+        transition: all 0.8s ease 0s;
+        transform: scale(1.1, 1.1);
+      }
+    }
+    &__end{
+        margin: 35px 0 50px;
+        color: #616161;
+    }
+
+}
+/*--------------------*/

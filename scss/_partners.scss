@@ -1,0 +1,32 @@
+/* partners */
+
+.partners{
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #999;
+    background: url('../img/intro.jpg') 0 0 no-repeat;
+    //ackground: url("img/partners/BG.jpg") 0 100% no-repeat;
+    background-size: cover;
+    margin-bottom: 185px;
+    &__title{
+        color: white;
+        font-size: 30px;
+        margin: 90px 0;
+    }
+    &__logo{
+        img{
+          margin-left: 110px;
+          transition: all 0.8s ease 0s; 
+        &:hover{
+          transition: all 0.8s ease 0s;
+          transform: scale(1.5, 1.5);
+        }
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+}
+/*--------------------*/
